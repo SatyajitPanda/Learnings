@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <android.support.v7.widget.AppCompatTextView
+        android:id="@+id/txt_contact"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="20dp"
+        android:paddingTop="15dp"
+        android:paddingBottom="15dp"
+        android:layout_centerVertical="true"
+        android:layout_alignParentLeft="true"
+        tools:context=".screen.contactdetails.ContactDetailActivity">
+    </android.support.v7.widget.AppCompatTextView>
+
+    <ImageView
+        android:id="@+id/iv_call_number"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:paddingRight="10dp"
+        android:src="@drawable/ic_phone"/>
+
+</RelativeLayout>
